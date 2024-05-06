@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: pgpool-operator
+  config-client:
+    enabled: false
+kubernetes:
+  client:
+    discovery:
+      mode: endpoint
+      mode-configuration:
+        endpoint:
+          watch:
+            enabled: false

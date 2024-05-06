@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: net.jfsanchez.k8s.operator
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [ app-name, config-kubernetes, discovery-kubernetes, graalvm, gradle, http-client-test, jib, junit, kotlin, kotlin-application, ksp, kubernetes, kubernetes-reactor-client, logback, management, micronaut-aot, micronaut-build, micronaut-http-validation, mockito, netty-server, reactor, readme, serialization-jackson, shade, static-resources, yaml, yaml-build ]
